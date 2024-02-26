@@ -1,0 +1,59 @@
+@import "variables";
+@import "mixins";
+
+
+.alert-warning {
+    @include alert;
+    color: $warning-font-color;
+    background-color: $warning-bg-color;
+    border-color: $warning-border-color;
+}
+
+.alert-success {
+    @include alert;
+    color: $success-font-color;
+    background-color: $success-bg-color;
+    border-color: $success-border-color;
+}
+
+.alert-info {
+    @include alert;
+    color: $info-font-color;
+    background-color: $info-bg-color;
+    border-color: $info-border-color;
+}
+
+.alert-danger {
+    @include alert;
+    color: $danger-font-color;
+    background-color: $danger-bg-color;
+    border-color: $danger-border-color;
+}
+
+.alert-primary {
+    @include alert;
+    color: $primary-font-color;
+    background-color: $primary-bg-color;
+    border-color: $primary-border-color;
+}
+
+.alert-secondary {
+    @include alert;
+    color: $secondary-font-color;
+    background-color: $secondary-bg-color;
+    border-color: $secondary-border-color;
+}
+
+.alert-dark {
+    @include alert;
+    color: $dark-font-color;
+    background-color: $dark-bg-color;
+    border-color: $dark-border-color;
+}
+
+.alert-light {
+    @include alert;
+    color: $light-font-color;
+    background-color: $light-bg-color;
+    border-color: $light-border-color;
+}
